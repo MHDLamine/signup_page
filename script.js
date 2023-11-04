@@ -47,16 +47,8 @@ function validateAdresseEmail() {
 // Fonction pour valider le champ "Mot de passe"
 function validateMotDePasse() {
     const motDePasseValue = motDePasseInput.value;
-  if (motDePasseValue === '') {
-    displayErrorMessage(motDePasseInput, 'Ce champ est requis');
-    motDePasseInput.classList.add("is-invalid");
-    return false;
-  } else if (motDePasseValue.length < 10) {
-    displayErrorMessage(motDePasseInput, 'Le mot de passe doit contenir au moins 10 caractères');
-    motDePasseInput.classList.add("is-invalid");
-    return false;
-  } else if (!/[!@#$%^&*]/.test(motDePasseValue)) {
-    displayErrorMessage(motDePasseInput, 'Le mot de passe doit contenir au moins un caractère spécial (!@#$%^&*)');
+  if( (motDePasseValue === '') || (motDePasseValue.length < 10) || (!/[!@#$%^&*]/.test(motDePasseValue)) ){
+    displayErrorMessage(motDePasseInput, 'saisie invalide');
     motDePasseInput.classList.add("is-invalid");
     return false;
   } else {

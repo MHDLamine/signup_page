@@ -104,4 +104,7 @@ h3, .form-check-label{
         margin: 0;
         margin-top: 20px;
     }
+    #error-message{
+        bottom: 40px;
+    }
   }
