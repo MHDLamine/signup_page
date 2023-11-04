@@ -46,7 +46,7 @@ function validateAdresseEmail() {
 
 // Fonction pour valider le champ "Mot de passe"
 function validateMotDePasse() {
-    const motDePasseValue = motDePasseInput.value.trim();
+    const motDePasseValue = motDePasseInput.value;
   if (motDePasseValue === '') {
     displayErrorMessage(motDePasseInput, 'Ce champ est requis');
     motDePasseInput.classList.add("is-invalid");
