@@ -1,8 +1,8 @@
-.container{
+.container:not(#c2){
     margin-top: 20px;
+    margin-bottom: 10px;
     background-color: #73B4FF;
     padding: 20px;
-    box-shadow: 15px 15px 15px #73b4ff7e;
     border-radius: 7px;
    
 }
