@@ -50,7 +50,7 @@ h3, .form-check-label{
 }
 
 /* Styles pour les boutons sociaux d'inscription */
-.btn-social, .btn-social:hover {
+.btn-social {
     
     color: #fff;
     padding: 8px 18px;
@@ -62,7 +62,9 @@ h3, .form-check-label{
     border-radius: 5px;
     width: 60%;
   }
-
+.btn-social:hover{
+    color: white;
+}
 
   
   .btn-facebook, .btn-facebook:hover {
@@ -85,6 +87,7 @@ h3, .form-check-label{
     }
     .btn-social{
         width: 100%;
+        padding: 8px 18px;
         margin: 0;
         margin-top: 20px;
     }
