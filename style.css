@@ -1,0 +1,46 @@
+.container{
+    background-color: #73B4FF;
+    padding: 20px;
+    box-shadow: 15px 15px 15px #73b4ff7e;
+    border-radius: 7px;
+   
+}
+
+.error-message{
+ 
+    color: red;
+}
+
+label{
+    font-size: 14px;
+}
+
+h3, .form-check-label{
+    color: #E8EFFF;
+}
+  input, .is-valid {
+    width: 100%;
+    padding: 5px;
+    border:none;/*1px solid #D94559;*/
+    border-radius: 5px;
+    outline: none;
+    background-color: #E8EFFF;
+  }
+.form-text{
+    font-size: 13px;
+}
+
+.btn-submit, .btn-submit:hover{
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-submit:disabled {
+    background-color: #dc35455e; 
+    cursor: not-allowed;
+    color: white;
+    border: none;
+  }
+.required{
+    color: red;
+}
