@@ -18,8 +18,9 @@ btn_afficher2.addEventListener('click', togglePasswordVisibility2);
 function togglePasswordVisibility() {
   if (motDePasseInput.type === 'password') {
     motDePasseInput.type = 'text'; // Afficher le texte du mot de passe
-    btn_afficher.classList.add('d-none');//cacher l'icone option voir
     btn_cacher.classList.remove('d-none');// afficher l'icone option cacher
+    btn_afficher.classList.add('d-none');//cacher l'icone option voir
+ 
   } else {
     motDePasseInput.type = 'password'; 
     btn_afficher.classList.remove('d-none');
@@ -154,6 +155,7 @@ form.addEventListener('submit', function (event) {
     event.preventDefault(); 
   }
   else{
-    alert('ok')
+    //envoie des données à l'api
+    alert('tout est ok')
   }
 });
