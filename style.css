@@ -1,5 +1,5 @@
 .container{
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: #73B4FF;
     padding: 20px;
     box-shadow: 15px 15px 15px #73b4ff7e;
@@ -14,6 +14,10 @@
 .error-message{
     position: absolute;
     color: #6e2a2a;
+    font-size: 14px;
+}
+#error-message{
+    bottom: 19px;
 }
 
 label{
@@ -48,21 +52,22 @@ h3, .form-check-label{
   }
 
 #passwordHelpBlock{
-    font-size: 12px;
+    font-size: 12.5px;
+    
 }
 
 /* Styles pour les boutons sociaux d'inscription */
 .btn-social {
     
     color: #fff;
-    padding: 8px 18px;
+    padding: 5px 15px;
     border: none;
     cursor: pointer;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 10px;
     border-radius: 5px;
-    width: 60%;
+    width: 55%;
   }
 .btn-social:hover{
     color: white;
@@ -77,6 +82,9 @@ h3, .form-check-label{
     background-color: #dd4b39; /* Couleur Google */
   }
   
+  .img{
+    margin-right: 10px;
+  }
 /************* Pour la responsivité ******************/
 
 @media only screen and (max-width: 600px) {
