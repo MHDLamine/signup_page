@@ -1,16 +1,30 @@
 .container{
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: #73B4FF;
     padding: 20px;
     box-shadow: 15px 15px 15px #73b4ff7e;
     border-radius: 7px;
    
 }
-
+#eyes, #eyes_not {
+    position: absolute;
+    right: 5px;
+    top: 44px;
+    cursor: pointer;
+}
+#eyes2, #eyes_not2 {
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    cursor: pointer;
+}
 .form-group{
     position: relative;
 }
-
+.is-invalid_{
+    border:1px solid #6e2a2a;
+    outline: none;
+}
 .error-message{
     position: absolute;
     color: #6e2a2a;
